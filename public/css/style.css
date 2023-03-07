@@ -1,0 +1,29 @@
+body{
+    background-color: hsla(120,100%,25%,0.3);
+}
+.box{
+    position: fixed;
+    top: 200px;
+    left: 600px;
+}
+div.card{
+    margin-bottom: 20px;
+    counter-reset: section;
+    background-color: hsla(120,60%,70%,0.3);
+}
+li::before {
+    counter-increment: section;
+    content: "Task " counter(section) ": ";
+}
+.inputtask{
+    align-items: center;
+}
+input{
+    border-radius: 20px;
+}
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+button{
+    border-radius: 20px !important;
+}
