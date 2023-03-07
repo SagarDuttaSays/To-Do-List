@@ -4,6 +4,7 @@ This is a To-Do List Web Application developed using HTML5, CSS3, Bootstrap, and
 
 Getting Started
 
+Download 'To Do List.zip' to get access to the full project
 To get started with this project, follow the instructions below.
 
 Prerequisites
